@@ -15,6 +15,7 @@
 		22F486341CF2D78B003BBD57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22F486321CF2D78B003BBD57 /* LaunchScreen.storyboard */; };
 		22F4863F1CF2D78C003BBD57 /* SwitchSliderDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F4863E1CF2D78C003BBD57 /* SwitchSliderDemoTests.m */; };
 		22F4864A1CF2D78C003BBD57 /* SwitchSliderDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F486491CF2D78C003BBD57 /* SwitchSliderDemoUITests.m */; };
+		22F486591CF2D809003BBD57 /* MySliderSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F486581CF2D809003BBD57 /* MySliderSwitch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		22F486451CF2D78C003BBD57 /* SwitchSliderDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchSliderDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22F486491CF2D78C003BBD57 /* SwitchSliderDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchSliderDemoUITests.m; sourceTree = "<group>"; };
 		22F4864B1CF2D78C003BBD57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22F486571CF2D809003BBD57 /* MySliderSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySliderSwitch.h; sourceTree = "<group>"; };
+		22F486581CF2D809003BBD57 /* MySliderSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySliderSwitch.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				22F486271CF2D78B003BBD57 /* AppDelegate.h */,
 				22F486281CF2D78B003BBD57 /* AppDelegate.m */,
+				22F486571CF2D809003BBD57 /* MySliderSwitch.h */,
+				22F486581CF2D809003BBD57 /* MySliderSwitch.m */,
 				22F4862A1CF2D78B003BBD57 /* ViewController.h */,
 				22F4862B1CF2D78B003BBD57 /* ViewController.m */,
 				22F4862D1CF2D78B003BBD57 /* Main.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				22F4862C1CF2D78B003BBD57 /* ViewController.m in Sources */,
 				22F486291CF2D78B003BBD57 /* AppDelegate.m in Sources */,
+				22F486591CF2D809003BBD57 /* MySliderSwitch.m in Sources */,
 				22F486261CF2D78B003BBD57 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

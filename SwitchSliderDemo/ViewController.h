@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MySliderSwitch.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController 
 
+@property (nonatomic, strong) MySliderSwitch *mySlider;
 
 @end
 
