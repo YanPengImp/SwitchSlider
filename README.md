@@ -1,2 +1,2 @@
-# myself
-mine code
+# custom switch view
+easy custom switch view
